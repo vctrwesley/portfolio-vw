@@ -1,1 +1,44 @@
-<p>footer works!</p>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer_inf">
+            <div class="footer__logo">
+                <a [routerLink]="['/victor-wesley']">
+                    <img src="assets/imagens/logovw.svg" alt="logo do Victor Wesley">
+                </a>
+            </div>
+            <div class="footer__menu">
+                <div class="explore">
+                    <h1>Explore</h1>
+                    <ul class="footer-links">
+                        <li><a [routerLink]="['/']">Home</a></li>
+                        <li><a [routerLink]="['/']">Sobre</a></li>
+                        <li><a [routerLink]="['/']">Projetos</a></li>
+                    </ul>
+                </div>
+                <div class="sobre">
+                    <h1>Sobre</h1>
+                    <ul class="footer-links">
+                        <li><a [routerLink]="['/']">Contato</a></li>
+                        <li><a [routerLink]="['/']">Política de privacidade</a></li>
+                        <li><a [routerLink]="['/']">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <h1>Contato</h1>
+                        <a href="https://www.linkedin.com/in/victor-wesley/"><img src="/assets/imagens/linkedin.svg" alt="Icon do linkedin"></a>
+                        <a href="https://github.com/vctrwesley"><img src="/assets/imagens/github.svg" alt="Icon do github"></a>
+                        <a><img src="/assets/imagens/instagram.svg" alt="Icon do instagram"></a>
+                        <a><img src="/assets/imagens/o-email.svg" alt="Icon de e-mail"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-container">
+            <hr class="divider">
+        </div>
+
+        <div class="footer-copyright">
+            <span>© 2024 Victor Wesley - Todos os Direitos Reservados</span>
+        </div>
+    </div>
+</footer>
